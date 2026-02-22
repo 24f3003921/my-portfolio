@@ -3,134 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nilesh Pandey | Data Science Portfolio</title>
+    <title>Nilesh Pandey | Portfolio</title>
     <style>
-        :root {
-            --primary: #2563eb;
-            --secondary: #1e293b;
-            --text: #334155;
-            --bg: #f8fafc;
-        }
-
-        body {
-            font-family: 'Inter', -apple-system, sans-serif;
-            background: var(--bg);
-            color: var(--text);
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-        }
-
-        .container {
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-        }
-
-        header {
-            text-align: center;
-            padding: 60px 0;
-            background: #ffffff;
-            border-bottom: 1px solid #e2e8f0;
-        }
-
-        h1 {
-            color: var(--secondary);
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-        }
-
-        .subtitle {
-            font-size: 1.2rem;
-            color: var(--primary);
-            font-weight: 600;
-        }
-
-        section {
-            margin-top: 40px;
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            border: 1px solid #e2e8f0;
-        }
-
-        h2 {
-            font-size: 1.5rem;
-            margin-bottom: 20px;
-            color: var(--secondary);
-            border-left: 4px solid var(--primary);
-            padding-left: 15px;
-        }
-
-        .project-card {
-            border: 1px solid #f1f5f9;
-            padding: 20px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            transition: transform 0.2s;
-        }
-
-        .project-card:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-        }
-
-        .contact-info {
-            text-align: center;
-            font-weight: bold;
-            font-family: monospace;
-            background: #f1f5f9;
-            padding: 20px;
-            border-radius: 8px;
-        }
-
-        footer {
-            text-align: center;
-            margin-top: 60px;
-            padding-bottom: 40px;
-            color: #94a3b8;
-            font-size: 0.9rem;
-        }
+        body { font-family: sans-serif; line-height: 1.5; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; background: #f4f7f6; }
+        .card { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h1 { color: #2563eb; }
+        .email-box { background: #eef2ff; padding: 15px; border-radius: 5px; border: 1px solid #c3dafe; margin: 20px 0; font-weight: bold; }
     </style>
 </head>
 <body>
 
-    <header>
+    <div class="card">
         <h1>Nilesh Pandey</h1>
-        <p class="subtitle">Data Science Student @ IIT Madras</p>
-    </header>
-
-    <div class="container">
-        <section id="about">
-            <h2>Professional Profile</h2>
-            <p>Aspiring Data Scientist with a focus on building data-driven solutions. Currently pursuing a Bachelor's degree in Data Science from IIT Madras, focusing on programming, statistical analysis, and machine learning.</p>
-        </section>
-
-        <section id="projects">
-            <h2>Technical Projects</h2>
-            <div class="project-card">
-                <h3>GitHub Portfolio Webpage</h3>
-                <p>Designed and deployed a professional portfolio using GitHub Pages. Focus on clean UI/UX and automated deployment workflows.</p>
-            </div>
-            <div class="project-card">
-                <h3>Statistical Data Modeling</h3>
-                <p>Exploratory data analysis projects conducted as part of the IITM curriculum, utilizing Python and specialized libraries.</p>
-            </div>
-        </section>
-
-        <section id="contact">
-            <h2>Contact Details</h2>
-            <div class="contact-info">
-                <p>Official Email: 24f3003921@ds.study.iitm.ac.in</p>
+        <p><strong>Data Science Student @ IIT Madras</strong></p>
         
-            <div style="display:none;">
-                    24f3003921@ds.study.iitm.ac.in</div>
-            </div>
-        </section>
+        <hr>
+
+        <h3>Contact Information</h3>
+        <div class="email-box">
+            Email: 24f3003921@ds.study.iitm.ac.in</div>
+
+        <h3>Technical Work</h3>
+        <ul>
+            <li><strong>Project 1:</strong> GitHub Portfolio Deployment using GitHub Pages.</li>
+            <li><strong>Project 2:</strong> Data Analysis using Python (IITM Coursework).</li>
+        </ul>
     </div>
 
-    <footer>
-        &copy; 2026 Nilesh Pandey | Deployed via GitHub Pages
+    <footer style="margin-top: 30px; text-align: center; color: #777; font-size: 0.8rem;">
+        &copy; 2026 Nilesh Pandey | Hosted on GitHub Pages
     </footer>
 
 </body>
